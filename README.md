@@ -19,8 +19,8 @@
 
 **1. Use the .zip file**
 
-```text
-Unzip the device-master.zip file 
+```bash
+download project https://github.com/silipa-panda/device-master
 ```
 
 **2. Build Project :**
