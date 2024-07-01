@@ -17,10 +17,10 @@
 
 ### Installation
 
-**1. Use the .zip file**
+**1. Download the project**
 
 ```http
-download project https://github.com/silipa-panda/device-master
+https://github.com/silipa-panda/device-master
 ```
 
 **2. Build Project :**
