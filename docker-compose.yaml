@@ -1,0 +1,19 @@
+services:
+
+  app:
+    image: device-master-api
+    container_name: device_master_api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9090:8090"
+    environment:
+        SPRING_DATASOURCE_URL: jdbc:h2:mem:testdb
+        SPRING_DATASOURCE_DRIVER_CLASS_NAME: org.h2.Driver
+        SPRING_DATASOURCE_USERNAME: sa
+        SPRING_DATASOURCE_PASSWORD: password
+        SPRING_JPA_HIBERNATE_DDL_AUTO: update
+        SPRING_JPA_SHOW_SQL: true
+
+
