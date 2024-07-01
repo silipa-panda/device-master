@@ -19,7 +19,7 @@
 
 **1. Use the .zip file**
 
-```bash
+```http
 download project https://github.com/silipa-panda/device-master
 ```
 
